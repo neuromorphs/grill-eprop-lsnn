@@ -76,10 +76,10 @@ A more involved alternative is using the `HTK` software package instructions can
 ### Examples to be used (Preliminary)
 
 In the following the examples we will use in the project:
-*[How to extract connection weights from nengo models](https://github.com/neuromorphs/grill-lmu/blob/master/weights/Connection%20Weights%20in%20Nengo.ipynb) to take inspiration abut the extraction of weights from the nengo ensamble connection.
-*[A possible solution to iteratively investigate several parameter configuration using pytry](https://github.com/neuromorphs/grill-eprop-lsnn/blob/master/rl/Using%20pytry%20to%20explore%20parameters.ipynb)
-*[The LMU-based network for the classification of psMNIST dataset](https://www.nengo.ai/nengo-dl/examples/lmu.html#)
-*[The e-prop LSTM and LSNN networks for the classification of the TIMIT dataset ](https://github.com/IGITUGraz/eligibility_propagation/tree/master/Figure_2_TIMIT)
+* [How to extract connection weights from nengo models](https://github.com/neuromorphs/grill-lmu/blob/master/weights/Connection%20Weights%20in%20Nengo.ipynb) to take inspiration abut the extraction of weights from the nengo ensamble connection.
+* [A possible solution to iteratively investigate several parameter configuration using pytry](https://github.com/neuromorphs/grill-eprop-lsnn/blob/master/rl/Using%20pytry%20to%20explore%20parameters.ipynb)
+* [The LMU-based network for the classification of psMNIST dataset](https://www.nengo.ai/nengo-dl/examples/lmu.html#)
+* [The e-prop LSTM and LSNN networks for the classification of the TIMIT dataset ](https://github.com/IGITUGraz/eligibility_propagation/tree/master/Figure_2_TIMIT)
 
 
 Many of these examples uses [Nengo](https://www.nengo.ai/) to build and parameterize the model.
