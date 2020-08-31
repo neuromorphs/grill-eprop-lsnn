@@ -40,8 +40,7 @@ export LD_LIBRARY_PATH
 ### Basic steps
 
 * Activate nengo jupyter extension: `jupyter serverextension enable nengo_gui.jupyter`
-* Clone this repository: `git clone https://github.com/gurgese/grill-eprop-lsnn.git && cd grill-eprop-lsnn`
-* Go in the : `git checkout dev_pc && cd pc`
+* Clone this repository: `git clone https://github.com/neuromorphs/grill-eprop-lsnn && cd grill-eprop-lsnn/pc`
 * Process the dataset by running: `python3 timit_processing.py`
 * Train an LSTM with symmetric e-prop: `PYTHONPATH=. CUDA_VISIBLE_DEVICES=0 python3 solve_timit_with_framewise_lstm.py --eprop=symmetric --preproc=mfccs`
 * Train an LSNN with symmetric e-prop: `PYTHONPATH=. CUDA_VISIBLE_DEVICES=0 python3 solve_timit_with_framewise_lsnn.py --eprop=symmetric --preproc=mfccs`
