@@ -44,7 +44,7 @@ export LD_LIBRARY_PATH
 * Process the dataset by running: `python3 timit_processing.py`
 * Train an LSTM with symmetric e-prop: `PYTHONPATH=. CUDA_VISIBLE_DEVICES=0 python3 solve_timit_with_framewise_lstm.py --eprop=symmetric --preproc=mfccs`
 * Train an LSNN with symmetric e-prop: `PYTHONPATH=. CUDA_VISIBLE_DEVICES=0 python3 solve_timit_with_framewise_lsnn.py --eprop=symmetric --preproc=mfccs`
-* If you have multiple GPU vrite the correct id in the variable CUDA_VISIBLE_DEVICES (`CUDA_VISIBLE_DEVICES=0,1` for using the first two GPUs)
+* If you have multiple GPU write the correct id in the variable CUDA_VISIBLE_DEVICES (`CUDA_VISIBLE_DEVICES=0,1` for using the first two GPUs)
 * TODO Add the next steps of the project
 
 
