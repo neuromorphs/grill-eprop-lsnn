@@ -1,0 +1,10 @@
+sphfile==1.0.3
+jupyter==1.0.0
+nengo==3.0.0
+nengo-gui==0.4.6
+nbdev==1.0.6
+nni==1.8
+python_speech_features==0.6
+pytry==0.9.2
+pandas==1.1.1 
+librosa==0.8.0
